@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <style>
+        body {
+            /* background-image: linear-gradient(to right, #ffffff, #ffffff, #fbd786, #f7797d); */
+            /* background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+             */
+            background-image: url("https://www.iave.org/iavewp/wp-content/uploads/2020/06/purple-background-registration.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .form {
+            border: 3px solid red;
+            border-top-left-radius: 40px;
+            border-top-right-radius: 40px;
+            padding: 15px;
+            font-size: 23px;
+            /* font-weight: 100px; */
+        }
+        
+        h1 {
+            border: 2px solid green;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border-radius: 40px;
+        }
+        /* .fa {
+            float: right;
+            margin-top: 20px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-5 mt-2  ">
+                <!-- <img src="https://previews.123rf.com/images/mazirama/mazirama1502/mazirama150200268/36497171-registration-text-concept-on-green-digital-world-map-background.jpg" alt=""> -->
+            </div>
+            <div class="col">
+                <center>
+                    <h1>Registaion Form</h1>
+                </center>
+                <form action="" class="form  text-light  ">
+                    <b><label for="name">First Name:-</label><input type="text" id="name" class="form-control my-1" placeholder="Enter the First Name">
+                    <label for="lname">Last Name:-</label><input type="text" id="lname" class="form-control my-1" placeholder="Enter the Last Name">
+                    <label for="email">Email:-</label><input type="email" id="email" class="form-control my-1" placeholder="Enter the Email address">
+                    <label for="email1">Re-type Email:-</label><input type="email" id="email1" class="form-control my-1" placeholder="Enter the Re-type Email address">
+                    <label for="email2">Password:-</label><input type="password" id="email2" class="form-control my-1" placeholder="Enter the Password address">
+                    <label for="email3">Address:-</label><input type="text" id="email3" class="form-control my-1" placeholder="Enter the Full address">
+                    <label for="email4">City:-</label><input type="text" id="email3" class="form-control my-1" placeholder="Enter the City name">
+                    <label for="em">State:-</label><select name="" class="form-control" id="em">
+                    <option value="">Choose a State</option>
+                    <option value="">Adhra Pradesh</option>
+                    <option value="">Arunacahl Pradesh</option>
+                    <option value="">Assam</option>
+                    <option value="">Bihar</option>
+                    <option value="">Chattisgarh</option>
+                    <option value="">Goa</option>
+                    <option value="">Gujarat</option>
+                    <option value="">Haryana</option>
+                    <option value="">Himanchal Pradesh</option>
+                    <option value="">Jharkhand</option>
+                    <option value="">Karnataka</option>
+                    <option value="">Kerala</option>
+                    <option value="">Madhya Pradesh</option>
+                    <option value="">Maharashtra</option>
+                    <option value="">Manipur</option>
+                    <option value="">Meghalaya</option>
+                    <option value="">Mizoram</option>
+                    <option value="">Nagaland</option>
+                    <option value="">Odisha</option>
+                    <option value="">Panjab</option>
+                    <option value="">Rajasthan</option>
+                    <option value="">Sikkim</option>
+                    <option value="">Tamil Nadu</option>
+                    <option value="">Telangana</option>
+                    <option value="">Tripura</option>
+                    <option value="">Uttar Pradesh</option>
+                    <option value="">Uttarakhand</option>
+                    <option value="">West Bengal</option>
+                   
+                    </select>
+                    <label for="zn">Zip Code:-</label><input type="number" class="form-control" name="" id="zn">
+                    <label for="zn1">Mobile:-</label><input type="number" class="form-control" name="" id="zn1">
+                    <label for="zn2">Date Of Birth:-</label><input type="date" class="form-control" name="" id="zn2">
+                    <label class="form-check-label" for="exampleRadios1">
+                        Gender
+                      </label>
+                    <div class="form-check form-control">
+                        <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                        <label class="btn btn-outline-success" for="success-outlined">Male</label>
+                        <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+                        <label class="btn btn-outline-danger" for="danger-outlined">Female</label>
+                    </div></b>
+                    <button type="submit" class="btn btn-primary my-3">Submit</button>
+                    <button type="reset" class="btn btn-danger float-end my-3">Reset</button>
+            </div>
+        </div>
+
+
+        </form>
+    </div>
+
+    </div>
+
+    </div>
+    <script src=" bootstrap/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js "></script>
+</body>
+
+</html>
